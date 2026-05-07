@@ -1,0 +1,20 @@
+
+
+import React from "react";
+import AiSection from "./AiSection.jsx";
+import Bottom from "./Bottom.jsx";
+import Features from "./Features.jsx";
+import Hero from "./Hero.jsx";
+
+const Home = () => {
+  return (
+    <>
+      <Hero />
+      <Features/>
+      <AiSection/>
+      <Bottom />
+    </>
+  );
+}
+
+export default Home;
